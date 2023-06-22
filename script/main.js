@@ -17,7 +17,7 @@
 // }, 1000);
 
 // setInterval(function() {
-//     // alert('Chạy lặp lại nhiều lần');
+// alert('Chạy lặp lại nhiều lần');
 //     console.log('Day la log ' + Math.random());
 // }, 1000);
 
