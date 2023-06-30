@@ -73,7 +73,7 @@ var htmls = courses.map2(function (course) {
 
 console.log(htmls.join(''))
 
-//forEach2, reduce2, filter2, find2, some2, every2
+
 
 var courses = new Array(10)
 
