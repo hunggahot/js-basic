@@ -93,3 +93,18 @@ headingElement.title = 'Heading'
 headingElement.setAttribute('class', 'heading')
 
 console.log(headingElement.getAttribute('class'))
+
+
+// InnerText, TextContent
+// Getter: Lấy ra
+// Setter: Đặt lại
+
+// InnerText: chỉ lấy text bên trong
+// TextContent: lấy toàn bộ mọi thứ nằm bên trong element mà mình lấy
+
+var headingElement1 = document.querySelector('.heading')
+
+console.log(headingElement1.innerText)
+console.log(headingElement1.textContent)
+
+headingElement1.innerText = 'New Heading'
