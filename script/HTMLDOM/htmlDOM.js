@@ -81,3 +81,15 @@ console.log(boxNode)
 console.log(boxNode.querySelectorAll('li'))
 console.log(boxNode.getElementsByTagName('li'))
 console.log(boxNode.getElementsByTagName('p'))
+
+
+
+//DOM Attribute
+
+var headingElement = document.querySelector('h1')
+
+headingElement.title = 'Heading'
+
+headingElement.setAttribute('class', 'heading')
+
+console.log(headingElement.getAttribute('class'))
