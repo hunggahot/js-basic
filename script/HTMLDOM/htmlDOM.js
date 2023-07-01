@@ -66,3 +66,18 @@ console.log(document.forms['form-1'])
 console.log(document.anchors) // Lọc thẻ a
 
 console.log(document.images) // lọc image
+
+
+//-----------------------------------------------------------------------//
+
+var boxNode = document.querySelector('.box-1')
+
+// Công viêc 1: SỬ dụng tới `boxNode`
+// ...
+console.log(boxNode)
+
+// Công việc 2: Sử dụng tới các li elements là con của `.box-1`
+
+console.log(boxNode.querySelectorAll('li'))
+console.log(boxNode.getElementsByTagName('li'))
+console.log(boxNode.getElementsByTagName('p'))
